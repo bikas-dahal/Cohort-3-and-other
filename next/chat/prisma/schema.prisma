@@ -85,3 +85,5 @@ model Message {
   senderDeleted    Boolean   @default(false)
   recipientDeleted Boolean   @default(false)
 }
+// go to know about the format changing
+

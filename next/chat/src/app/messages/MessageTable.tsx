@@ -27,7 +27,7 @@ export default function MessageTable({ initialMessages }: Props) {
         isOutbox,
         isDeleting,
         deleteMessage,
-        selectRow,
+        selectRow, 
         messages,
     } = useMessages(initialMessages);
 

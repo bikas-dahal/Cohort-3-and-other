@@ -27,8 +27,8 @@ export default async function RootLayout({
 }>) {
     // const session = await (auth)()
     // console.log('Session:', session); // Debugging statement
-    // const userId = session?.user?.id || 'Guest'; // Fallback to 'Guest' or similar
-    // console.log(userId)
+    // const [userId] = session?.user?.id || 'Guest'; // Fallback to 'Guest' or similar
+    // console.log([userId])
     // const isLoggedIn = false; // Replace with your actual logic
     // const user = { imageUrl: '' };
 

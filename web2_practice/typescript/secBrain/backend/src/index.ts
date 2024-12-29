@@ -1,13 +1,17 @@
 import express from 'express'
-import { ContentModel, UserModel } from './db'
+import { ContentModel, LinkModel, UserModel } from './db'
 import jwt from 'jsonwebtoken'
 import { JWT_SECRET } from './config'
 import { authMiddleware } from './middleware'
+import { randomString } from './utils'
+import { Request, Response } from 'express';
+import cors from 'cors' 
 
 
 const app = express()
 
-app.use(express.json())
+app.use(express.json()) 
+app.use(cors())
 
 app.post('/api/v1/signup', async (req, res) => {
     const { username, password } = req.body
@@ -110,17 +114,76 @@ app.delete('/api/v1/content', authMiddleware, async (req, res) => {
     })
 })
 
-app.post('/api/v1/brain/share', (req, res) => {
+app.post('/api/v1/brain/share', authMiddleware, async (req, res) => {
+    const { share } = req.body
+
+    
+    if (share) {
+        
+        const existingLink = await LinkModel.findOne({
+            // @ts-ignore
+            userId: req.userId
+        })
+
+        if (existingLink) {
+            res.json({
+                message: existingLink
+            })
+            return
+        }
+        
+        const hash = randomString(6)
+        await LinkModel.create({
+            // @ts-ignore
+            userId: req.userId,
+            hash
+        })
+
+        res.json({
+            success: 'Link created',
+            link: `http://localhost:3000/api/v1/brain/${hash}`
+        })
+    } else {
+        await LinkModel.deleteOne({
+            // @ts-ignore
+            userId: req.userId
+        })
+
+        res.json({
+            success: 'Link removed'
+        })
+    }
 
 })
 
-app.get('/api/v1/brain/:shareLink', (req, res) => {
+// @ts-ignore
+app.get('/api/v1/brain/:shareLink', async (req: Request<{ shareLink: string }>, res: Response) => {
+    try {
+        const { shareLink } = req.params;
 
-})
+        // Find the link by its hash
+        const link = await LinkModel.findOne({ hash: shareLink }).lean();
+
+        if (!link) {
+            return res.status(404).json({ error: 'Invalid link' });
+        }
+
+        // Find the content associated with the userId
+        const content = await ContentModel.findOne({ userId: link.userId }).lean();
+
+        if (!content) {
+            return res.status(404).json({ error: 'Content not found' });
+        }
+
+        return res.json({ content });
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: 'Internal server error' });
+    }
+});
 
 
-
-app.listen(3001, () => {
+app.listen(3000, () => {
   console.log('Server is running on port 3000')
 })
 

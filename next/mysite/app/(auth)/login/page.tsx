@@ -17,7 +17,7 @@ import {Form, FormControl, FormDescription, FormField, FormItem, FormLabel, Form
 import {Input} from "@/components/ui/input";
 import {Button} from "@/components/ui/button";
 import {Loader2} from "lucide-react";
-import {signIn, useSession} from "next-(auth)/react";
+import {signIn, useSession} from "next-auth/react";
 
 
 const LoginPage = () => {

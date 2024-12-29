@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { Message } from '@/models/userModel';
 import { useToast } from "@/components/ui/use-toast";
-import { useSession } from "next-(auth)/react";
+import { useSession } from "next-auth/react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { acceptMessageSchema } from "@/schemas/signUpSchema";

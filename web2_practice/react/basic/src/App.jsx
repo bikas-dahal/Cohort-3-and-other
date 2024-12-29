@@ -8,6 +8,7 @@ import {usePrev} from "./hooks/usePrev.js";
 import {useDebounce} from "./hooks/useDebounce.js";
 import {RecoilRoot, useRecoilValue, useSetRecoilState} from "recoil";
 import {counterAtom, evenSelector} from "./store/atoms/counter.js";
+import Otp from "./components/Otp.jsx";
 
 const BulbContext = createContext();
 
@@ -129,6 +130,8 @@ const Check = () => {
 
 
         </div>
+        Otp like component
+        <Otp />
         <div className={'flex border-2 border-pink-400 p-2 rounded-md bg-gray-300 flex-col gap-x-5 m-3 text-xl '}>
             Using Recoil for state management
             <div className={'flex justify-evenly'}>

@@ -68,8 +68,7 @@ export default function MessageList({ initialMessages, currentUserId, chatId }: 
     );
 
     useEffect(() => {
-        const channel =
-            pusherClient.subscribe(chatId);
+        const channel = pusherClient.subscribe(chatId);
         channel.bind("message:new", handleNewMessage);
         channel.bind(
             "message:read",

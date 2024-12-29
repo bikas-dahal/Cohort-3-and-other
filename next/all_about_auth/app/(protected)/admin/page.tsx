@@ -7,7 +7,6 @@ import {RoleGate} from "@/components/auth/role-gate";
 import {FormSuccess} from "@/components/form-success";
 import {UserRole} from "@prisma/client";
 import {Button} from "@/components/ui/button";
-import {Simulate} from "react-dom/test-utils";
 import {toast} from "sonner";
 import {admin} from "@/actions/admin";
 // import {currentRole} from "@/lib/auth";

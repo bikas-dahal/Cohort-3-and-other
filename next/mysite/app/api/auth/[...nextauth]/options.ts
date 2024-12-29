@@ -1,10 +1,10 @@
-import NextAuth from "next-(auth)";
-import GoogleProvider from "next-(auth)/providers/google";
-import CredentialsProvider from "next-(auth)/providers/credentials";
+import NextAuth from "next-auth";
+import GoogleProvider from "next-auth/providers/google";
+import CredentialsProvider from "next-auth/providers/credentials";
 import User from "@/models/userModel";
 import bcrypt from "bcryptjs";
 import dbConnect from "@/lib/dbConnect";
-import { NextAuthOptions } from "next-(auth)";
+import { NextAuthOptions } from "next-auth";
 
 export const authOptions: NextAuthOptions = {
     providers: [

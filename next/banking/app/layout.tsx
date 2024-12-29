@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Banking Platform",
   description: "Platform for banks",
   icons: {
-    icon: './icons/logo.svg'
+    icon: './icons/logo.jpg'
   }
 };
 

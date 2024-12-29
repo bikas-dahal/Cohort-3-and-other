@@ -5,11 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb01519c-d377-4fe5-91ee-158404ffac55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web2_practice/misc/sup/app/(root)/quote/create/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web2_practice/misc/sup/components/QuoteForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web2_practice/misc/sup/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/misc/sup/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web2_practice/misc/sup/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/misc/sup/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/banking/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/banking/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/chat/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/next/chat/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/chat/src/app/members/[userId]/chat/MessageList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/chat/src/app/members/[userId]/chat/MessageList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/chat/src/app/messages/MessageTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/chat/src/app/messages/MessageTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/essential/app/api/auth/[...nextauth]/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/next/essential/app/api/auth/[...nextauth]/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/essential/app/api/properties/user/[userId]/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/next/essential/app/api/properties/user/[userId]/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/essential/components/AuthProvider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/essential/components/AuthProvider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/essential/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/essential/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/essential/utils/authOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/next/essential/utils/authOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/max/app/archive/@latest/default.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/max/app/archive/@latest/default.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/max/app/news/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/max/app/news/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/actions/getUser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/actions/getUser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/app/(app)/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/app/(app)/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/app/(auth)/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/app/(auth)/login/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/app/api/auth/[...nextauth]/options.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/app/api/auth/[...nextauth]/options.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/app/api/auth/[...nextauth]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/components/ui/infinite-moving-cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/components/ui/infinite-moving-cards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/context/AuthProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/context/AuthProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/mysite/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next/mysite/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/nextjs-dashboard/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/next/nextjs-dashboard/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/misc/qzz/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/README.Docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/bun.lockb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/next.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/misc/qzz/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/prisma/schema.prisma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/app/(landing)/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/app/dashboard/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/misc/qzz/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/misc/qzz/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/app/login/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/app/quizes/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/Canvas.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/Navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/Quiz.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/app-sidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/check.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/dashrough.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/login-form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/nav-main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/nav-projects.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/nav-secondary.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/nav-user.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/team-switcher.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/theme-provider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/avatar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/breadcrumb.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/calendar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/checkbox.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/collapsible.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/dropdown-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/hover-card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/navigation-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/pagination.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/progress.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/radio-group.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/scroll-area.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/separator.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/sheet.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/sidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/skeleton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/slider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/sonner.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/tabs.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/textarea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/components/ui/tooltip.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/hooks/use-mobile.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/hooks/user-profile.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/lib/db.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/src/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/misc/qzz/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/qzz/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/misc/qzz/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/scrape/components/ui/navigation-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/misc/scrape/components/ui/navigation-menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/misc/sup/components/QuoteForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/misc/sup/components/QuoteForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/react/basic/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/react/basic/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/secBrain/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/typescript/secBrain/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/secBrain/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/typescript/secBrain/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/secBrain/backend/src/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/typescript/secBrain/backend/src/db.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/secBrain/backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/typescript/secBrain/backend/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/secBrain/backend/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/typescript/secBrain/backend/tsconfig.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/secBrain/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/typescript/secBrain/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/secBrain/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/typescript/secBrain/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/secBrain/frontend/src/components/ui/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/typescript/secBrain/frontend/src/components/ui/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/secBrain/frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web2_practice/typescript/secBrain/frontend/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web2_practice/typescript/testa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web3/hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/web3/hash.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +120,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="JSX File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -35,27 +138,32 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2lWiex9ViCc83EaBYpr2zZgMpkZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/HS/web2_practice/misc/wmsy/src/app/(auth)",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "D:\\HS\\next\\kook\\front\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HS/web2_practice/misc/scrape/app/(auth)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\HS\\next\\mysite\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -67,14 +175,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HS\web2_practice\misc\scrape\app\(auth)" />
       <recent name="D:\HS\web2_practice\misc\wmsy\src\app\(auth)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\HS\web2_practice\misc\sup\components" />
-      <recent name="D:\HS\web2_practice\misc\sup\app\fonts" />
-      <recent name="D:\HS\web2_practice\misc\sup\public" />
-      <recent name="D:\HS\web2_practice\misc\sup\app" />
-      <recent name="D:\HS\web2_practice\misc\sup" />
+      <recent name="D:\HS\web2_practice\typescript\Javascript" />
+      <recent name="D:\HS\web2_practice\misc\wmsy\src\features\auth" />
+      <recent name="D:\HS\next\chat\public\images" />
+      <recent name="D:\HS\next\chat\src" />
+      <recent name="D:\HS\web2_practice\misc\qzz\src\app\(landing)" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -127,6 +236,33 @@
       <workItem from="1730082973852" duration="7820000" />
       <workItem from="1730101442867" duration="6415000" />
       <workItem from="1730180630778" duration="11630000" />
+      <workItem from="1730303362447" duration="138000" />
+      <workItem from="1730343143227" duration="17275000" />
+      <workItem from="1730430511344" duration="7237000" />
+      <workItem from="1730468088825" duration="1279000" />
+      <workItem from="1730514512999" duration="5671000" />
+      <workItem from="1730642256904" duration="21000" />
+      <workItem from="1730647542603" duration="3240000" />
+      <workItem from="1730719935353" duration="10043000" />
+      <workItem from="1730780763770" duration="27632000" />
+      <workItem from="1730855967612" duration="2546000" />
+      <workItem from="1730910944275" duration="1843000" />
+      <workItem from="1730974681742" duration="597000" />
+      <workItem from="1731030146911" duration="17947000" />
+      <workItem from="1731204562141" duration="13413000" />
+      <workItem from="1731289915903" duration="13684000" />
+      <workItem from="1731377090267" duration="10044000" />
+      <workItem from="1731483217878" duration="13373000" />
+      <workItem from="1731548280799" duration="20604000" />
+      <workItem from="1731636241541" duration="23902000" />
+      <workItem from="1731721039803" duration="4057000" />
+      <workItem from="1731826310180" duration="5503000" />
+      <workItem from="1731894218909" duration="20547000" />
+      <workItem from="1731998780583" duration="20016000" />
+      <workItem from="1732030821639" duration="2408000" />
+      <workItem from="1732034932265" duration="585000" />
+      <workItem from="1732068688013" duration="406000" />
+      <workItem from="1735462720051" duration="589000" />
     </task>
     <servers />
   </component>
@@ -135,5 +271,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

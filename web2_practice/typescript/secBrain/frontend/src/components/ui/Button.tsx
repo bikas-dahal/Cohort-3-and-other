@@ -30,7 +30,7 @@ const sizeStyles: Record<'sm' | 'md' | 'lg', string> = {
 
 
 
-export const Button = ({ variant, size, text, startIcon, endIcon, onClick }: ButtonProps) => {
+export const ButtonLater = ({ variant, size, text, startIcon, endIcon, onClick }: ButtonProps) => {
 
 
 

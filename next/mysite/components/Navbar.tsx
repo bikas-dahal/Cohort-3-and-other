@@ -1,8 +1,8 @@
 'use client'
 
 import Link from "next/link";
-import { signOut, useSession } from "next-(auth)/react";
-import { User } from "next-(auth)";
+import { signOut, useSession } from "next-auth/react";
+import { User } from "next-auth";
 import { FC } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "shadcn/ui"; // Assuming cn is a utility for merging class names

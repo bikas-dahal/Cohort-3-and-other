@@ -1,29 +1,11 @@
-'use client'
+// 'use client'
 
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-
-import { Alert } from 'flowbite-react'
-import Header from '@/components/Header'
 import Cards from '@/components/Cards'
 
-import {cookies} from "next/headers";
-import {decode} from "@(auth)/core/jwt";
 import {InfiniteMovingCards} from "@/components/ui/infinite-moving-cards";
 import {Gyan} from "@/models/data.ts";
 import {main} from "@popperjs/core";
 import * as React from "react"
-
-// import {Card, CardContent, CardHeader} from "@/components/ui/card"
-// import {
-//     Carousel,
-//     CarouselContent,
-//     CarouselItem,
-//     CarouselNext,
-//     CarouselPrevious,
-// } from "@/components/ui/carousel"
-// import AutoPlay from 'embla-carousel-autoplay'
-// import messages from '@/messages.json'
 export default function Home() {
     return (
         <div className="pt-10 bg-gray-100 min-h-screen">
@@ -34,9 +16,9 @@ export default function Home() {
 
             {/* Wisdom (Gyan) Section */}
             <div className="m-4 p-6 rounded-xl bg-gradient-to-r from-gray-300 to-gray-400 shadow-lg">
-        <span className="p-4 text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-700 to-blue-600">
-          Wisdom (Gyan)
-        </span>
+                <span className="p-4 text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-700 to-blue-600">
+                Wisdom (Gyan)
+                </span>
 
                 {/* Moving Cards - Left */}
                 <div className="h-64 mx-3 my-6 bg-gradient-to-r from-slate-500 via-slate-400 to-slate-300 rounded-lg shadow-md flex items-center justify-center relative overflow-hidden">

@@ -9,15 +9,7 @@ import {User} from "lucide-react";
 import {getUserByEmail} from "@/data/user";
 import {getTwoFactorConfirmationByUserId} from "@/data/two-factor-confirmation";
 import {getAccountByUserId} from "@/data/account";
-// import {UserRole} from "@prisma/client";
 
-// declare module "@auth/core" {
-//     interface Session {
-//         user: {
-//             role: string
-//         } & DefaultSession['user']
-//     }
-// }
 
 export const {
     handlers: { GET, POST },

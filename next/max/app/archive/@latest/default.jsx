@@ -1,5 +1,5 @@
 import {getLatestNews} from "@/lib/news";
-import NewsList from "@/components/news-list";
+import NewsList from "@/components/news-lists";
 
 export default function LatestPage()  {
     const latestNews = getLatestNews()

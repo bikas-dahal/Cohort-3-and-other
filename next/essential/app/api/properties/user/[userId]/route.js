@@ -1,7 +1,7 @@
 import connectDB from "@/config/database";
 import Property from "@/models/Property";
 
-// GET /api/properties/user/:userId
+// GET /api/properties/user/:[userId]
 export const GET = async (request, { params }) => {
     try {
         await connectDB();
@@ -13,12 +13,12 @@ export const GET = async (request, { params }) => {
 
         console.log('UserId:', userId);
 
-        // Querying the database directly with the userId
+        // Querying the database directly with the [userId]
         const userProperties = await Property.find({ owner: userId });
         console.log('User Properties:', userProperties);
 
         if (userProperties.length === 0) {
-            console.log('No properties found for the given userId');
+            console.log('No properties found for the given [userId]');
             return new Response('No properties found', { status: 404 });
         }
 

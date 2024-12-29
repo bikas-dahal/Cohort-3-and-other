@@ -36,7 +36,7 @@ export default {
 
                     if (passwordMatch) return user
                 }
-                // console.log('faile')
+                // console.log('failed')
 
                 return null
 
