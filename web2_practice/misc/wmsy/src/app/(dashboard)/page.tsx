@@ -4,6 +4,9 @@ import { getWorkspaces } from "@/features/workspaces/queries";
 import {redirect} from "next/navigation";
 import { Models } from "node-appwrite";
 
+export const dynamic = 'force-dynamic';
+
+
 export default async function Home() {
 
   const currentUser = await getCurrent()

@@ -3,6 +3,9 @@ import { CreateWorkspaceForm } from '@/features/workspaces/components/create-wor
 import { redirect } from 'next/navigation'
 import React from 'react'
 
+export const dynamic = 'force-dynamic';
+
+
 const WorkspaceCreatePage = async () => {
     
   const currentUser = await getCurrent()
